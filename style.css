@@ -45,11 +45,33 @@ nav a:hover {
     text-align: center;
 }
 
-.info {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-}
+.title {
+    color: #0A0814;
+    font-size: 60px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+  }
 
+.tm-red-text { color: #05295e; }
+.tm-info-label {
+  font-weight: bold;
+  display: inline-block;
+  width: 90px;
+}
+.tm-progress {
+  background: #fff;
+  border-radius: 2px;
+  height: 4px;
+}
+.progress-bar-danger { background: #05295e; }
+.tm-progress-label {
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+.progress-percent-small {
+  display: block;
+  float: right;
+  padding-right: 80px;
+}
