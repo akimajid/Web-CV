@@ -1,58 +1,61 @@
 * {
-    font-family:PT-Sans, sans-serif  ;
+  font-family: PT-Sans, sans-serif;
 }
 
 nav {
-    background-color: #0A0814;
-    color: white;
-    display: flex;
-    height: 45px;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+  background-color: #0a0814;
+  color: white;
+  display: flex;
+  height: 45px;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 nav a {
-    font: 15px;
-    padding: 12px 24px;
-    text-transform: uppercase;
-    color: inherit;
-    text-decoration: none;
+  font: 15px;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  color: inherit;
+  text-decoration: none;
 }
 
 nav a:hover {
-    cursor: pointer;
-    background-color: white;
-    color: black    ;
-    transition: 200ms linear;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: 200ms linear;
 }
 
 .link-wrapper {
-    display: flex;
+  display: flex;
 }
 
 .home-section img {
-    width: 100%;
+  width: 100%;
 }
 
 .home-capt {
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 90px;
-    color: white;
-    text-align: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 90px;
+  color: white;
+  text-align: center;
 }
 
 .title {
-    color: #0A0814;
-    font-size: 60px;
-    padding-bottom: 40px;
-    text-transform: uppercase;
-  }
+  color: #0a0814;
+  font-size: 60px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
 
-.tm-red-text { color: #05295e; }
+.tm-red-text {
+  color: #05295e;
+}
+
 .tm-info-label {
   font-weight: bold;
   display: inline-block;
@@ -63,7 +66,10 @@ nav a:hover {
   border-radius: 2px;
   height: 4px;
 }
-.progress-bar-danger { background: #05295e; }
+.progress-bar-danger {
+  background: #05295e;
+}
+
 .tm-progress-label {
   font-size: 12px;
   font-weight: bold;
@@ -74,4 +80,22 @@ nav a:hover {
   display: block;
   float: right;
   padding-right: 80px;
+}
+
+.tm-about {
+  background: url("WEB Coding.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  text-align: justify;
+}
+
+.about-title, .about-title2 {
+  color: #a39d9d;
+}
+
+#textAbout {
+  color: #c4bcbc;
 }
