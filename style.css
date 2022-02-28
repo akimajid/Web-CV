@@ -116,6 +116,47 @@ nav a:hover {
   border: 1px solid #666;
   border-radius: 2px;
   text-align: center;
-  padding: 80px 40px 80px 40px;
+  padding: 80px 40px;
 }
 
+.tm-contact {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background: url("Wallpapers.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.form-control {
+  background: white;
+  border: 2px solid #c4bcbc;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  -webkit-transition: all 600ms ease-in;
+          transition: all 600ms ease-in;
+}
+
+.form-control:focus, .form-control:hover {
+  background: black;
+  color: white;
+}
+
+input { 
+height: 50px; 
+}
+
+.tm-contact p { 
+padding-top: 40px;
+padding-bottom: 40px; 
+}
+
+.contact-title {
+  color: #dfdee4;
+  font-size: 60px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
